@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Merriweather+Sans:wght@300;400&display=swap');
-body {
+body,html {
     padding: 0;
     margin: 0;
     height: 100vh;
     font-family: "Merriweather Sans", sans-serif;   
+    overflow: hidden;
 }
 
+
+
+.main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
 
 /* Navbar-Css */
 
@@ -91,11 +101,15 @@ body {
 
 /* Image-Css */
 
-
+.main{
+    /* height: 100vh; */
+    /* border: 5px solid; */
+}
 .image_container {
     position: relative;
     overflow: hidden;
-    height: 72.5vh;
+    /* height: 100%; */
+    height: 83.5vh;   
 }
 
 .image_container>div {
@@ -142,6 +156,8 @@ body {
 .footer{
     width: 100%;
     display: flex;
+    position: absolute;
+    bottom: 0;
     align-items: center;
     justify-content: space-around; 
     background-color:#373e3e;
@@ -224,8 +240,7 @@ body {
 @media screen and (max-width:450px){
     .footer{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        
+        grid-template-columns: repeat(3,1fr);    
     }
     .footer>div{
         align-self: center;
@@ -243,6 +258,9 @@ body {
     }
     body{
         overflow: hidden;
+    }
+    .image_container>div{
+        top: 26%;
     }
 }
 
