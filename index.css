@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Merriweather+Sans:wght@300;400&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather Sans", sans-serif;   
+}
+
+
+/* Navbar-Css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar>ul {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.1rem;
+    list-style-type: none
+}
+
+.navbar>ul>li:first-child{
+    font-weight: 600;
+    color: black;
+}
+
+.navbar>ul>li {
+    cursor: pointer;
+    font-weight: 500;
+    color:gray;
+}
+
+.navbar>ul>li:hover {
+    color: rgb(174, 212, 212);
+}
+
+.company_logo {
+    width: 12vw;
+    cursor: pointer;
+}
+
+.navbar_options {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.navbar_options>a {
+    text-decoration: none;
+    color: #00a8b6;
+}
+
+.navbar_options>a>span {
+    margin-right: 1rem;
+}
+
+.user_contact {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.user_contact>button {
+    background-color: #00a8b6;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+.user_contact>button:hover{
+    background-color: #058a96;
+    cursor: pointer;
+}
+
+.user_contact>div {
+    border: 1px solid black;
+    padding: 0.5rem 1.1rem;
+}
