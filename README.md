@@ -3,9 +3,9 @@ Immerse in a captivating web adventure for Travelopia – a single-page masterpi
 
 ![Screenshot 2024-02-03 125510](https://github.com/ashukmt/Travelopia_Assignment/assets/132146622/2e637aed-e603-4fe8-919d-b683137dca84)
 
-Live at : https://visionary-cobbler-c4c420.netlify.app/
+Live at : https://effortless-custard-cd3db1.netlify.app/
 <br/>
-Video Presentation Link : 
+Video Presentation Link : https://drive.google.com/file/d/196UwChBe2LvnyX2lGl-rfla3AWI9ALlx/view?usp=sharing
 
 ## Responsiveness
 
@@ -15,12 +15,6 @@ Video Presentation Link :
 
 
  <ol>   
-  <li>Navbar and Footer Dimensions: </li>
-  <ul>
-    <li>
-      Verify that the navbar and footer have a height of 100 pixels each.
-    </li>
-</ul>
 
    <li>Navbar and Footer Dimensions:</li>
   <ul>
