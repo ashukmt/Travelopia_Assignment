@@ -158,3 +158,84 @@ body {
 .footer>div:hover{
     cursor: pointer;
 }
+
+/* Media Queries */
+
+@media screen and (max-width:840px){
+    .image_container>div{
+        width: 50%;
+        left: 24%;
+    }
+
+    .navbar>ul {
+        display: none;
+    }
+
+    .company_logo {
+        width: 30vw;
+    }
+
+    .navbar_options>a>span {
+        display: none;
+    }
+
+    .navbar .user_contact {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+}
+@media screen and (max-width:650px){
+    .image_container>div{
+        width: 55%;
+        left: 21%;
+        padding: 20px 10px;
+    }
+    .footer>div>p,i{
+       font-size: 15px;
+    }
+    
+
+}
+@media screen and (max-width:530px){
+    .image_container>div{
+        width: 60%;
+        left: 17%;
+        padding: 30px 10px;
+    }
+    .image_container>div>h1 {
+        font-size: 2.5rem;
+    }
+    .footer>div>p{
+        font-size: 13px;
+     }
+    .footer>div>i{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    .footer>div{
+        align-self: center;
+        justify-self: center;
+    }
+    .footer>div:nth-child(4){
+        align-self: center;
+        justify-self: end;
+
+    }
+    .footer>div:nth-child(5){
+        align-self: center;
+        justify-self: end;
+        margin-left: 10%;
+    }
+}
+
+
