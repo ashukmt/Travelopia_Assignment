@@ -2,6 +2,7 @@
 body {
     padding: 0;
     margin: 0;
+    height: 100vh;
     font-family: "Merriweather Sans", sans-serif;   
 }
 
@@ -107,6 +108,10 @@ body {
     left: 27%;
     padding: 20px 0;
     text-align: center;
+}
+
+.image_container>img{
+    object-fit: cover;
 }
 
 .image_container>div>h1 {
@@ -235,6 +240,9 @@ body {
         align-self: center;
         justify-self: end;
         margin-left: 10%;
+    }
+    body{
+        overflow: hidden;
     }
 }
 
