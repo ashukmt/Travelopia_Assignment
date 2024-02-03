@@ -15,12 +15,6 @@ Video Presentation Link :
 
 
  <ol>   
-  <li>Navbar and Footer Dimensions: </li>
-  <ul>
-    <li>
-      Verify that the navbar and footer have a height of 100 pixels each.
-    </li>
-</ul>
 
    <li>Navbar and Footer Dimensions:</li>
   <ul>
